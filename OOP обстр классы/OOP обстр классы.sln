@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30406.217
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OOP обстр классы", "OOP обстр классы.vcxproj", "{8FAF218B-10AB-459F-A2CA-B29DB6A161FD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "бинарные деревья", "..\бинарные деревья\бинарные деревья.vcxproj", "{7947D579-9A7C-47C1-811A-506E111ECF9E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{8FAF218B-10AB-459F-A2CA-B29DB6A161FD}.Release|x64.Build.0 = Release|x64
 		{8FAF218B-10AB-459F-A2CA-B29DB6A161FD}.Release|x86.ActiveCfg = Release|Win32
 		{8FAF218B-10AB-459F-A2CA-B29DB6A161FD}.Release|x86.Build.0 = Release|Win32
+		{7947D579-9A7C-47C1-811A-506E111ECF9E}.Debug|x64.ActiveCfg = Debug|x64
+		{7947D579-9A7C-47C1-811A-506E111ECF9E}.Debug|x64.Build.0 = Debug|x64
+		{7947D579-9A7C-47C1-811A-506E111ECF9E}.Debug|x86.ActiveCfg = Debug|Win32
+		{7947D579-9A7C-47C1-811A-506E111ECF9E}.Debug|x86.Build.0 = Debug|Win32
+		{7947D579-9A7C-47C1-811A-506E111ECF9E}.Release|x64.ActiveCfg = Release|x64
+		{7947D579-9A7C-47C1-811A-506E111ECF9E}.Release|x64.Build.0 = Release|x64
+		{7947D579-9A7C-47C1-811A-506E111ECF9E}.Release|x86.ActiveCfg = Release|Win32
+		{7947D579-9A7C-47C1-811A-506E111ECF9E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
