@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Tree.cpp" />
     <ClCompile Include="деревья.cpp" />
   </ItemGroup>
   <ItemGroup>
