@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OOP обстр классы
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "бинарные деревья", "..\бинарные деревья\бинарные деревья.vcxproj", "{7947D579-9A7C-47C1-811A-506E111ECF9E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "дз 22", "..\дз 22\дз 22.vcxproj", "{F342C117-219C-44D6-B772-D587F4DDDC3E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{7947D579-9A7C-47C1-811A-506E111ECF9E}.Release|x64.Build.0 = Release|x64
 		{7947D579-9A7C-47C1-811A-506E111ECF9E}.Release|x86.ActiveCfg = Release|Win32
 		{7947D579-9A7C-47C1-811A-506E111ECF9E}.Release|x86.Build.0 = Release|Win32
+		{F342C117-219C-44D6-B772-D587F4DDDC3E}.Debug|x64.ActiveCfg = Debug|x64
+		{F342C117-219C-44D6-B772-D587F4DDDC3E}.Debug|x64.Build.0 = Debug|x64
+		{F342C117-219C-44D6-B772-D587F4DDDC3E}.Debug|x86.ActiveCfg = Debug|Win32
+		{F342C117-219C-44D6-B772-D587F4DDDC3E}.Debug|x86.Build.0 = Debug|Win32
+		{F342C117-219C-44D6-B772-D587F4DDDC3E}.Release|x64.ActiveCfg = Release|x64
+		{F342C117-219C-44D6-B772-D587F4DDDC3E}.Release|x64.Build.0 = Release|x64
+		{F342C117-219C-44D6-B772-D587F4DDDC3E}.Release|x86.ActiveCfg = Release|Win32
+		{F342C117-219C-44D6-B772-D587F4DDDC3E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
