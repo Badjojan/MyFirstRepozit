@@ -1,5 +1,6 @@
 ﻿
 #include <iostream>
+#include "Tree.h"
 using namespace std;
 
 
@@ -78,14 +79,26 @@ int main()
 		cout << help2->data << "\t";
 		help2 = help2->prev;
 	}*/
-	Node<int>* Head=NULL;
+	
+	
+	
+	
+	/*Node<int>* Head=NULL;
 	Node<int>* Tail = NULL;
 	for (int i = 0; i <10 ; i++)
 	{
 		AddNodeEnd(Head, Tail, i);
 	}
 	ViewForvard(Head);
-	View(Tail);
+	View(Tail);*/
+
+	BinaryTree tree;
+	tree.Add(8);
+	tree.Add(3);
+	tree.Add(10);
+	tree.Add(6);
+	tree.Add(9);
+	tree.InOrder();
 }
 
 

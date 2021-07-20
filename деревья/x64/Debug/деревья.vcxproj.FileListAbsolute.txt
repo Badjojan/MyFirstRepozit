@@ -1,0 +1,2 @@
+C:\DemRepos\деревья\x64\Debug\деревья.exe
+C:\DemRepos\деревья\x64\Debug\деревья.pdb
