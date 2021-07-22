@@ -1,0 +1,6 @@
+﻿  Logger.cpp
+C:\Users\Взрослая академия\Desktop\DesignPatterns\Singleton\Logger.h(37,33): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Singleton.cpp
+C:\Users\Взрослая академия\Desktop\DesignPatterns\Singleton\Logger.h(37,33): warning C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Создание кода...
+  Singleton.vcxproj -> C:\Users\Взрослая академия\Desktop\DesignPatterns\Debug\Singleton.exe
