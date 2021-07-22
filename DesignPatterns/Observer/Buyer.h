@@ -35,6 +35,6 @@ public:
 	}
 	void Update(Product* pProduct)
 	{
-		cout << "\nChanges for " << name << " in product " << pProduct->GetName() << " " << pProduct->GetPrice();
+		cout << "\nChanges for " << name << " in product " << pProduct->GetName() << " " << pProduct->GetPrice() << " " <<pProduct->GetWeight();
 	}
 };

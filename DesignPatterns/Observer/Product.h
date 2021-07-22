@@ -20,6 +20,7 @@ private:
 	// цена
 	double price;
 	list<Buyer*> buyers;
+	double weight;
 
 public:
 
@@ -53,6 +54,17 @@ public:
 			price = pPrice;
 			Notify();
 		}
+	}
+	void SetWeight(double pWeight)
+	{
+		if (weight != pWeight)
+		{
+			weight = pWeight;
+			Notify();
+		}
+	}
+	double GetWeight() {
+		return weight;
 	}
 };
 

@@ -22,6 +22,10 @@ int main()
 	bmw->SetPrice(70000);
 	bmw->SetPrice(60000);
 
+	bmw->SetWeight(1000);
+	bmw->SetWeight(2000);
+	bmw->SetWeight(3000);
+
 	delete firstBuyer;
 	delete secondBuyer;
 	delete bmw;

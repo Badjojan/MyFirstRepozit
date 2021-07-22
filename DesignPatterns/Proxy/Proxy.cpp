@@ -6,7 +6,7 @@ int main() {
 	
 	
 	// Создаем прокси
-	MathematicsProxy* proxy = new MathematicsProxy();
+	IMathematics* proxy = new MathematicsProxy();
 
 	// Вызываем математические функции
 	// сложение
