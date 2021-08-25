@@ -1,0 +1,5 @@
+﻿  ConsoleApplication.cpp
+E:\DemGit\ConsoleApplication\ConsoleApplication.cpp(17,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+E:\DemGit\ConsoleApplication\ConsoleApplication.cpp(32,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\DemGit\ConsoleApplication\ConsoleApplication.cpp(39,7): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  ConsoleApplication.vcxproj -> E:\DemGit\Файлы\Debug\ConsoleApplication.exe

@@ -1,0 +1,6 @@
+﻿  висилица.cpp
+E:\DemGit\висилица\висилица.cpp(62,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\DemGit\висилица\висилица.cpp(77,2): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strupr. See online help for details.
+E:\DemGit\висилица\висилица.cpp(177,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+E:\DemGit\висилица\висилица.cpp(169,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  висилица.vcxproj -> E:\DemGit\висилица\Debug\висилица.exe
