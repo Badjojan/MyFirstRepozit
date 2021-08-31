@@ -88,9 +88,12 @@ int main()
     Firm firm;
     ifstream is("wb.dat", ios::binary);
     while (is >> firm) {
-        cout << firm << endl;
+        
+        if (firm.get_name() == "")
+            break;
         firm.clear();
     }
+    cout << firm << endl;
 #endif
     return 0;
     
