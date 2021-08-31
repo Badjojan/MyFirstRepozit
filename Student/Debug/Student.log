@@ -1,2 +1,9 @@
 ﻿  Source.cpp
-  Student.vcxproj -> E:\DemGit\Файлы\Debug\Student.exe
+  Student.cpp
+E:\DemGit\Student\Student.cpp(47,1): error C2511: size_t Group::AddStudents(const char *,...): перегруженная функция-член не найдена в "Group"
+E:\DemGit\Student\Student.h(16): message : см. объявление "Group"
+E:\DemGit\Student\Student.cpp(56,8): error C3861: isAppendAllowed: идентификатор не найден
+E:\DemGit\Student\Student.cpp(60,3): error C2671: Group::AddStudents: статические функции-члены не имеют указателей "this"
+E:\DemGit\Student\Student.cpp(63,8): error C3861: isAppendAllowed: идентификатор не найден
+E:\DemGit\Student\Student.cpp(71,4): error C2671: Group::AddStudents: статические функции-члены не имеют указателей "this"
+  Создание кода...
