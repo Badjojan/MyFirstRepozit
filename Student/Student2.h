@@ -9,31 +9,31 @@ public:
 	int rate;
 
 
-	Student(string _name="No name",int _rate=0);
-	
+	Student(string _name = "No name", int _rate = 0);
+
 };
 
 class Group
 {
 private:
-	
+
 	size_t _num_students = 0;
-	size_t capacity =10 ;
+	size_t capacity = 10;
 	Student* st = nullptr;
 
 public:
-	Group(size_t _capacity=0);
-	
-	~Group();
+	Group(size_t _capacity = 0);
 
-	size_t AddStudent(const string& _name, int _rate);
+	/*///*~Group();*/
+
+	size_t AddStudent(const string _name, int _rate);
 	bool isAppendAllowed();
 	size_t AddStudents(const char* _name...);
 	size_t FindStudent(const string& _name);
 	Student& At(size_t _idx);
 	size_t Delete(size_t _idx);
 	Student& operator[] (size_t _idx) {
-		
+
 	}
 };
 
@@ -50,6 +50,9 @@ class SmartPointer {
 	Dt* m_dptr;
 
 public:
+	SmartPointer(Group* p = NULL) {
+		m_dptr = new Dt(p);
+	}
 	SmartPointer(const SmartPointer& obj) {
 		operator=(obj);
 	}
@@ -68,6 +71,9 @@ public:
 	}
 
 	operator Group* () {
-		m_dptr->ptr;
+	return	m_dptr->ptr;
+	}
+	Group* operator->() {
+		return m_dptr->ptr;
 	}
 };

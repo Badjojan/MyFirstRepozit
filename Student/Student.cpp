@@ -42,6 +42,10 @@ size_t Group::AddStudent(const string& _name, int _rate)
 	
 	
 }
+bool Group::isAppendAllowed()
+{
+	return (_num_students >= capacity) ? true : false;
+}
 
 size_t Group::AddStudents(const char* _name ...)
 {
